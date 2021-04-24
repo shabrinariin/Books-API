@@ -71,7 +71,7 @@ const getAllBooksHandler = (request, h) => {
   const isFinished = finished === '1';
   const isRead = reading === '1'; 
 
-  /*if (name !== undefined) {
+  if (name !== undefined) {
     const response = h.response({
       status: 'success',
       data: {
@@ -147,7 +147,7 @@ const getAllBooksHandler = (request, h) => {
     });
     response.code(200);
     return response;
-  }*/
+  }
   const response = h.response({
     status: 'success',
     data: {
